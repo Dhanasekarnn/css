@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+        
+        <article>
+            <h2>Contact me</h2>
+            <p>I Would like to hear from you</p>
+            <form action="https:httpbin.org/get", method="get">
+                <fieldset>
+                        <legend>Talk to me</legend>
+            <p>
+                <label for="firstname">Firstname :</label>
+                <input type="text" name="firstname" id="firstname" placeholder="firstname" autocomplete="on" required>
+            </p>
+
+            <p>
+                <label for="lastname">Lastname :</label>
+                <input type="text" name="lastname" id="lastname" placeholder="lastname" autocomplete="on" required>
+            </p>
+
+            <p>
+                <label for="Password">Password :</label>
+                <input type="password" name="Password" id="Password" placeholder="Password" required>
+            </p>
+
+            <p>
+                <label for="Phone">Phone No :</label>
+                <input type="tel" name="Phone" id="Phone" placeholder="+91987654321" required >
+            </p>
+
+            <p>
+                <label for="Year">Year No :</label>
+                <input type="number" name="Year" id="Year" min="2000" max="2020" value="2000">
+            </p>
+
+            <p>
+                    <label for="content">content :</label>
+                    <select name="content" id="content">
+                        <optgroup label="ds1">
+                            <option value="fronted">Fronted</option>
+                        </optgroup>
+                        <optgroup label="ds2">
+                            <option value="Backened">Backened</option>
+                        </optgroup>
+                        <optgroup label="ds3">
+                            <option value="Both">Both</option>
+                        </optgroup>
+                    </select>
+            </p>
+
+            <p>
+                <input type="radio" name="food" id="chicken" value="chicken">
+                <label for="chicken">chicken</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="Mutton" value="Mutton">
+                <label for="Mutton">Mutton</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="Beef" value="Beef">
+                <label for="Beef">Beef</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="pet" id="Dog" value="Dog">
+                <label for="Dog">Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pet" id="Cat" value="Cat">
+                <label for="Cat">Cat</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pet" id="other" value="other">
+                <label for="other">other</label>
+            </p>
+
+            <label for="messege">Messege</label>
+            <p>
+            <textarea name="messege" id="messege" cols="30" rows="10" placeholder="Type Your messege"></textarea>
+            </p>
+        
+
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+        </form>
+        
+
+    </article>
+
+</body>
+</html>
